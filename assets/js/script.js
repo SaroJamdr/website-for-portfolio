@@ -44,7 +44,7 @@ document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
             document.title = "Portfolio | Saroj Jamdar";
-            $("#favicon").attr("href", "assets/images/favicon.png");
+            $("#favicon").attr("href", "assets/images/favicon1.png");
         }
         else {
             document.title = "Come Back To Portfolio";

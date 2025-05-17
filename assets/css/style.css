@@ -65,7 +65,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1000;
+  z-index: 999;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -151,13 +151,15 @@ header .navbar ul li a:hover {
   header .navbar {
     position: fixed;
     top: 6.5rem;
-    right: -120%;
-    width: 75%;
+    right: -100%;
+    width: 60%;
+    padding-left: 5rem;
     height: 100%;
     text-align: left;
     align-items: flex-start;
     background-color: #0e0f31;
     transition: right 0.4s ease-in-out;
+    margin-top: 1.4rem;
   }
   
   header .navbar ul {
@@ -241,7 +243,7 @@ header .navbar ul li a:hover {
 .home .image img {
   width: 70%;
   height: 80%;
-  margin-top: 5rem;
+  margin-top: 8rem;
   margin-left: 6rem;
   border-radius: 50%;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
@@ -421,6 +423,7 @@ header .navbar ul li a:hover {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
   transition: 0.3s;
   cursor: pointer;
+  margin-top: 100px;
 }
 
 .about .row .image img:hover {
