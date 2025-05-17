@@ -536,6 +536,91 @@ box .resumebtn .btn span {
 /* about media queries ends*/
 /* about section ends */
 
+
+/* projects section starts */
+      .projects{
+        height: fit-content;
+        background: #ebecee;
+        font-family:  "Nunito", sans-serif;;
+      }
+      .projects>h2{
+        margin: 4rem;
+      }
+
+      .projects-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 6rem;
+      }
+
+    .project-card {
+      max-width: 400px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px  #2506ad;
+      padding: 3rem 6rem;
+      transition: box-shadow 0.3s ease;
+    }
+
+    .project-card:hover {
+      box-shadow: 0 4px 16px #1a047e;
+    }
+
+    .project-title {
+      margin-bottom: 2rem;
+      font-size: 2rem;
+      font-weight: 800;
+      color: #2c3e50;
+    }
+
+    .project-description {
+      font-size: 1.5rem;
+      color: #34495e;
+      margin-bottom: -3rem;
+    }
+
+    .clickBtn {
+    margin-top: 6rem;
+  }
+
+.clickBtn .btn {
+  padding: 1.5rem 2rem;
+  border-radius: 0.5em;
+  transition: 0.3s;
+  color: #fff;
+  background: #2506ad;
+  box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
+}
+
+.clickBtn .btn span {
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+.clickBtn .btn i {
+  margin-left: 0.3rem;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+
+.clickBtn .btn:hover {
+  background: #1a047e;
+}
+
+.clickBtn .btn:hover i {
+  transform: translateX(5px);
+}
+
+
+
+/* projects section ends */
+
+
+
+
 /* skills section starts */
 .skills {
   min-height: 90vh;
