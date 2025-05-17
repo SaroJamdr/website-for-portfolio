@@ -551,7 +551,7 @@ box .resumebtn .btn span {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 6rem;
+        gap: 5rem;
       }
 
     .project-card {
@@ -585,7 +585,7 @@ box .resumebtn .btn span {
   }
 
 .clickBtn .btn {
-  padding: 1.5rem 2.5rem;
+  padding: 1.5rem 2rem;
   border-radius: 0.5em;
   transition: 0.3s;
   color: #fff;
