@@ -555,6 +555,7 @@ box .resumebtn .btn span {
       }
 
     .project-card {
+      flex: 1 1 320px;
       max-width: 400px;
       background: white;
       border-radius: 8px;
