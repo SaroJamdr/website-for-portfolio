@@ -141,7 +141,7 @@ srtop.reveal('.about .content .box-container', { delay: 200 });
 srtop.reveal('.about .content .resumebtn', { delay: 200 });
 
 
-srtop.reveal('.project-card', { interval: 300 });
+srtop.reveal('.project-card', { interval: 200 });
 
 /* SCROLL SKILLS */
 srtop.reveal('.skills .container', { interval: 200 });

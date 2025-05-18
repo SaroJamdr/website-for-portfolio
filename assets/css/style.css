@@ -18,6 +18,11 @@ html {
 }
 
 body {
+   -webkit-user-select: none; /* Safari */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* IE10+/Edge */
+    user-select: none;         /* Standard */
+    cursor: default; /* Optional: change cursor to default */
   background: #f7f7f7;
   font-family: "Poppins", sans-serif;
 }
@@ -555,7 +560,7 @@ box .resumebtn .btn span {
       }
 
     .project-card {
-      flex: 1 1 250px;
+      flex: 1 1 350px;
       max-width: 400px;
       background: white;
       border-radius: 8px;
